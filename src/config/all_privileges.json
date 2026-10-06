@@ -1,0 +1,876 @@
+{
+    "privileges_config": {
+        "PROJECT & RELEASE MANAGEMENT": {
+            "groupName": "PROJECT & RELEASE MANAGEMENT",
+            "subGroups": [
+                {
+                    "subGroupName": "Project",
+                    "values": [
+                        {
+                            "name": "view_business_unit",
+                            "label": "Show Project"
+                        }
+                    ]
+                },
+                {
+                    "subGroupName": "My Board",
+                    "values": [
+                        {
+                            "name": "view_myboard",
+                            "label": "Show Myboard"
+                        }
+                    ]
+                },
+                {
+                    "subGroupName": "Release Plan",
+                    "values": [
+                        {
+                            "name": "show_release_plan",
+                            "label": "Show Release Plan"
+                        },
+                        {
+                            "name": "allow_planning",
+                            "label": "Allow Planning"
+                        },
+                        {
+                            "name": "delete_release_sprint",
+                            "label": "Delete Release And Sprint"
+                        }
+                    ]
+                },
+                {
+                    "subGroupName": "Sprint Plan",
+                    "values": [
+                        {
+                            "name": "show_sprint_plan",
+                            "label": "Show Sprint Plan"
+                        },
+                        {
+                            "name": "allow_planning",
+                            "label": "Allow Planning"
+                        }
+                    ]
+                },
+                {
+                    "subGroupName": "Task",
+                    "values": [
+                        {
+                            "name": "view_task",
+                            "label": "Show Task"
+                        },
+                        {
+                            "name": "add_task",
+                            "label": "Add Task"
+                        },
+                        {
+                            "name": "delete_task",
+                            "label": "Delete Task"
+                        }
+                    ]
+                }
+            ]
+        },
+        "IMPACT ANALYSIS": {
+            "groupName": "IMPACT ANALYSIS",
+            "subGroups": [
+                {
+                    "subGroupName": "Impact Analysis",
+                    "values": [
+                        {
+                            "name": "view_impact_analysis",
+                            "label": "Show Impact Analysis"
+                        }
+                    ]
+                }
+            ]
+        },
+        "REQUIREMENT MANAGEMENT": {
+            "groupName": "REQUIREMENT MANAGEMENT",
+            "subGroups": [
+                {
+                    "subGroupName": "Requirement Management",
+                    "values": [
+                        {
+                            "name": "view_requirementmanagement",
+                            "label": "Show Requirement Management"
+                        }
+                    ]
+                },
+                {
+                    "subGroupName": "Epic",
+                    "values": [
+                        {
+                            "name": "add_epic",
+                            "label": "Add Epic"
+                        },
+                        {
+                            "name": "delete_epic",
+                            "label": "Delete Epic"
+                        },
+                        {
+                            "name": "epic_make_reviewer",
+                            "label": "Make Reviewer"
+                        },
+                        {
+                            "name": "epic_make_approver",
+                            "label": "Make Approver"
+                        },
+                        {
+                            "name": "epic_allow_reversion_for_review/approve",
+                            "label": "Allow Reversion for Review/Approve"
+                        }
+                    ]
+                },
+                {
+                    "subGroupName": "Feature",
+                    "values": [
+                        {
+                            "name": "add_feature",
+                            "label": "Add Feature"
+                        },
+                        {
+                            "name": "delete_feature",
+                            "label": "Delete Feature"
+                        },
+                        {
+                            "name": "feature_make_reviewer",
+                            "label": "Make Reviewer"
+                        },
+                        {
+                            "name": "feature_make_approver",
+                            "label": "Make Approver"
+                        },
+                        {
+                            "name": "feature_allow_reversion_for_review/approve",
+                            "label": "Allow Reversion for Review/Approve"
+                        }
+                    ]
+                },
+                {
+                    "subGroupName": "User Story",
+                    "values": [
+                        {
+                            "name": "add_userstory",
+                            "label": "Add Userstory"
+                        },
+                        {
+                            "name": "delete_userstory",
+                            "label": "Delete Userstory"
+                        },
+                        {
+                            "name": "userstory_make_reviewer",
+                            "label": "Make Reviewer"
+                        },
+                        {
+                            "name": "userstory_make_approver",
+                            "label": "Make Approver"
+                        },
+                        {
+                            "name": "userstory_allow_reversion_for_review/approve",
+                            "label": "Allow Reversion for Review/Approve"
+                        }
+                    ]
+                },
+                {
+                    "subGroupName": "Module",
+                    "values": [
+                        {
+                            "name": "add_module",
+                            "label": "Add Module"
+                        },
+                        {
+                            "name": "delete_module",
+                            "label": "Delete Module"
+                        }
+                    ]
+                }
+            ]
+        },
+        "DEFECT MANAGEMENT": {
+            "groupName": "DEFECT MANAGEMENT",
+            "subGroups": [
+                {
+                    "subGroupName": "Defect",
+                    "values": [
+                        {
+                            "name": "view_defect",
+                            "label": "Show Defect"
+                        },
+                        {
+                            "name": "add_defect",
+                            "label": "Add Defect"
+                        },
+                        {
+                            "name": "delete_defect",
+                            "label": "Delete Defect"
+                        }
+                    ]
+                }
+            ]
+        },
+        "TEST MANAGEMENT": {
+            "groupName": "TEST MANAGEMENT",
+            "subGroups": [
+                {
+                    "subGroupName": "Function",
+                    "values": [
+                        {
+                            "name": "view_function",
+                            "label": "Show Function"
+                        },
+                        {
+                            "name": "add_function",
+                            "label": "Add Function"
+                        },
+                        {
+                            "name": "delete_function",
+                            "label": "Delete Function"
+                        },
+                        {
+                            "name": "copy_function_across_projects",
+                            "label": "Copy Function across Projects"
+                        },
+                        {
+                            "name": "function_make_reviewer",
+                            "label": "Make Reviewer"
+                        },
+                        {
+                            "name": "function_make_approver",
+                            "label": "Make Approver"
+                        },
+                        {
+                            "name": "function_allow_reversion_for_review/approve",
+                            "label": "Allow Reversion for Review/Approve"
+                        }
+                    ]
+                },
+                {
+                    "subGroupName": "Parameter",
+                    "values": [
+                        {
+                            "name": "view_parameter",
+                            "label": "Show Parameter"
+                        },
+                        {
+                            "name": "add_parameter",
+                            "label": "Add Parameter"
+                        },
+                        {
+                            "name": "delete_parameter",
+                            "label": "Delete Parameter"
+                        }
+                    ]
+                },
+                {
+                    "subGroupName": "Test case",
+                    "values": [
+                        {
+                            "name": "view_testcase",
+                            "label": "Show Testcase"
+                        },
+                        {
+                            "name": "add_testcase",
+                            "label": "Add Testcase"
+                        },
+                        {
+                            "name": "delete_testcase",
+                            "label": "Delete Testcase"
+                        },
+                        {
+                            "name": "mobile_automation",
+                            "label": "Mobile Automation"
+                        },
+                        {
+                            "name": "desktop_automation",
+                            "label": "Desktop Automation"
+                        },
+                        {
+                            "name": "mainframe_automation",
+                            "label": "Mainframe Automation"
+                        },
+                        {
+                            "name": "sap_automation",
+                            "label": "Sap Automation"
+                        },
+                        {
+                            "name": "web_automation",
+                            "label": "Web Automation"
+                        },
+                        {
+                            "name": "copy_testcase_across_project",
+                            "label": "Copy Testcase across Project"
+                        },
+                        {
+                            "name": "import_external_framework",
+                            "label": "Import External Framework"
+                        },
+                        {
+                            "name": "export_ustc_mapping",
+                            "label": "Export US TC Mapping"
+                        },
+                        {
+                            "name": "testcase_make_reviewer",
+                            "label": "Make Reviewer"
+                        },
+                        {
+                            "name": "testcase_make_approver",
+                            "label": "Make Approver"
+                        },
+                        {
+                            "name": "testcase_allow_reversion_for_review/approve",
+                            "label": "Allow Reversion for Review/Approve"
+                        }
+                    ]
+                },
+                {
+                    "subGroupName": "Test Data",
+                    "values": [
+                        {
+                            "name": "view_testdata",
+                            "label": "Show Testdata"
+                        },
+                        {
+                            "name": "add_testdata",
+                            "label": "Add Testdata"
+                        },
+                        {
+                            "name": "delete_testdata",
+                            "label": "Delete Testdata"
+                        }
+                    ]
+                },
+                {
+                    "subGroupName": "Data Generation",
+                    "values": [
+                        {
+                            "name": "view_datageneration",
+                            "label": "Show Datageneration"
+                        }
+                    ]
+                },
+                {
+                    "subGroupName": "Runtime Parameters",
+                    "values": [
+                        {
+                            "name": "view_runtimeparameters",
+                            "label": "Show Runtimeparameters"
+                        },
+                        {
+                            "name": "delete_runtimeparameters",
+                            "label": "Delete Runtimeparameters"
+                        }
+                    ]
+                },
+                {
+                    "subGroupName": "Object",
+                    "values": [
+                        {
+                            "name": "view_object",
+                            "label": "Show Object"
+                        },
+                        {
+                            "name": "add_object",
+                            "label": "Add Object"
+                        },
+                        {
+                            "name": "delete_object",
+                            "label": "Delete Object"
+                        }
+                    ]
+                },
+                {
+                    "subGroupName": "Code Editor",
+                    "values": [
+                        {
+                            "name": "code_editor",
+                            "label": "Code Editor"
+                        }
+                    ]
+                },
+                {
+                    "subGroupName": "Service Virtualization",
+                    "values": [
+                        {
+                            "name": "view_api_mock_service",
+                            "label": "Show Mock Service"
+                        },
+                        {
+                            "name": "add_api_mock_service",
+                            "label": "Add Mock Service"
+                        },
+                        {
+                            "name": "delete_api_mock_service",
+                            "label": "Delete Mock Service"
+                        }
+                    ]
+                },
+                {
+                    "subGroupName": "Steps",
+                    "values": [
+                        {
+                            "name": "hide_in_report",
+                            "label": "Show View In Report"
+                        }
+                    ]
+                }
+            ]
+        },
+        "TEST EXECUTION": {
+            "groupName": "TEST EXECUTION",
+            "subGroups": [
+                {
+                    "subGroupName": "Test Plan",
+                    "values": [
+                        {
+                            "name": "view_Scenario_folder",
+                            "label": "Show Test Plan"
+                        },
+                        {
+                            "name": "add_Scenario_folder",
+                            "label": "Add Test Plan"
+                        },
+                        {
+                            "name": "delete_Scenario_folder",
+                            "label": "Delete Test Plan"
+                        },
+                        {
+                            "name": "delete_suite_from_scenario",
+                            "label": "Delete Suite From Test Plan"
+                        }
+                    ]
+                },
+                {
+                    "subGroupName": "Execution Plan",
+                    "values": [
+                        {
+                            "name": "view_execution_plan",
+                            "label": "Show Execution Plan"
+                        },
+                        {
+                            "name": "add_execution_plan",
+                            "label": "Add Execution Plan"
+                        },
+                        {
+                            "name": "delete_execution_plan",
+                            "label": "Delete Execution Plan"
+                        },
+                        {
+                            "name": "execute_execution_plan",
+                            "label": "Execute Execution Plan"
+                        },
+                        {
+                            "name": "executionPlan_make_reviewer",
+                            "label": "Make Reviewer"
+                        },
+                        {
+                            "name": "executionPlan_make_approver",
+                            "label": "Make Approver"
+                        },
+                        {
+                            "name": "executionPlan_allow_reversion_for_review/approve",
+                            "label": "Allow Reversion for Review/Approve"
+                        }
+                    ]
+                },
+                {
+                    "subGroupName": "Suite",
+                    "values": [
+                        {
+                            "name": "view_suite",
+                            "label": "Show Suite"
+                        },
+                        {
+                            "name": "add_suite",
+                            "label": "Add Suite"
+                        },
+                        {
+                            "name": "delete_suite",
+                            "label": "Delete Suite"
+                        },
+                        {
+                            "name": "suite_make_reviewer",
+                            "label": "Make Reviewer"
+                        },
+                        {
+                            "name": "suite_make_approver",
+                            "label": "Make Approver"
+                        },
+                        {
+                            "name": "suite_allow_reversion_for_review/approve",
+                            "label": "Allow Reversion for Review/Approve"
+                        }
+                    ]
+                },
+                {
+                    "subGroupName": "Scheduler",
+                    "values": [
+                        {
+                            "name": "view_scheduler",
+                            "label": "Show Scheduler"
+                        },
+                        {
+                            "name": "add_scheduler",
+                            "label": "Add Scheduler"
+                        },
+                        {
+                            "name": "delete_scheduler",
+                            "label": "Delete Scheduler"
+                        },
+                        {
+                            "name": "cancel_scheduler",
+                            "label": "Cancel Scheduler"
+                        }
+                    ]
+                },
+                {
+                    "subGroupName": "Pipelines",
+                    "values": [
+                        {
+                            "name": "view_pipelines",
+                            "label": "Show Pipelines"
+                        },
+                        {
+                            "name": "add_pipelines",
+                            "label": "Add Pipelines"
+                        },
+                        {
+                            "name": "delete_pipelines",
+                            "label": "Delete Pipelines"
+                        }
+                    ]
+                },
+                {
+                    "subGroupName": "Executions",
+                    "values": [
+                        {
+                            "name": "remote_execution",
+                            "label": "Remote Execution"
+                        },
+                        {
+                            "name": "parallel_remote_execution",
+                            "label": "Parallel Remote Execution"
+                        },
+                        {
+                            "name": "local_execution",
+                            "label": "Allow Local Execution"
+                        },
+                        {
+                            "name": "cloud_execution",
+                            "label": "Allow Cloud Execution"
+                        }
+                    ]
+                }
+            ]
+        },
+        "WORKFLOW BUILDER": {
+            "groupName": "WORKFLOW BUILDER",
+            "subGroups": [
+                {
+                    "subGroupName": "Workflow Builder",
+                    "values": [
+                        {
+                            "name": "view_workflow_builder",
+                            "label": "Show Workflow Builder"
+                        },
+                        {
+                            "name": "add_workflow_builder",
+                            "label": "Add Workflow Builder"
+                        },
+                        {
+                            "name": "delete_workflow_builder",
+                            "label": "Delete Workflow Builder"
+                        }
+                    ]
+                }
+            ]
+        },
+        "RTM": {
+            "groupName": "RTM",
+            "subGroups": [
+                {
+                    "subGroupName": "RTM",
+                    "values": [
+                        {
+                            "name": "view_rtm",
+                            "label": "Show RTM"
+                        }
+                    ]
+                }
+            ]
+        },
+        "REPORTS & DASHBOARD": {
+            "groupName": "REPORTS & DASHBOARD",
+            "subGroups": [
+                {
+                    "subGroupName": "Reports",
+                    "values": [
+                        {
+                            "name": "network_api_logs",
+                            "label": "Network API Logs"
+                        },
+                        {
+                            "name": "report_make_reviewer",
+                            "label": "Make Reviewer"
+                        },
+                        {
+                            "name": "report_make_approver",
+                            "label": "Make Approver"
+                        },
+                        {
+                            "name": "report_allow_reversion_for_review/approve",
+                            "label": "Allow Reversion for Review/Approve"
+                        }
+                    ]
+                },
+                {
+                    "subGroupName": "DashBoard",
+                    "values": [
+                        {
+                            "name": "view_dashboard",
+                            "label": "Show Dashboard"
+                        },
+                        {
+                            "name": "add_dashboard",
+                            "label": "Add Dashboard"
+                        },
+                        {
+                            "name": "delete_dashboard",
+                            "label": "Delete Dashboard"
+                        }
+                    ]
+                }
+            ]
+        },
+        "CONFIGURATION": {
+            "groupName": "CONFIGURATION",
+            "subGroups": [
+                {
+                    "subGroupName": "Config",
+                    "values": [
+                        {
+                            "name": "view_config",
+                            "label": "Show Config"
+                        },
+                        {
+                            "name": "add_config",
+                            "label": "Add Config"
+                        },
+                        {
+                            "name": "delete_config",
+                            "label": "Delete Config"
+                        }
+                    ]
+                },
+                {
+                    "subGroupName": "Uploads & Downloads",
+                    "values": [
+                        {
+                            "name": "upload_agent",
+                            "label": "Upload Agent"
+                        },
+                        {
+                            "name": "view_downloads",
+                            "label": "Show Downloads"
+                        }
+                    ]
+                },
+                {
+                    "subGroupName": "Custom Jar",
+                    "values": [
+                        {
+                            "name": "view_custom_jar",
+                            "label": "Show Custom Jar"
+                        },
+                        {
+                            "name": "upload_custom_jar",
+                            "label": "Upload Custom Jar"
+                        },
+                        {
+                            "name": "delete_custom_jar",
+                            "label": "Delete Custom Jar"
+                        }
+                    ]
+                },
+                {
+                    "subGroupName": "Object Inspector",
+                    "values": [
+                        {
+                            "name": "mainframe_inspector",
+                            "label": "Mainframe Inspector"
+                        },
+                        {
+                            "name": "web_inspector",
+                            "label": "Web Inspector"
+                        },
+                        {
+                            "name": "mobile_inspector",
+                            "label": "Mobile Inspector"
+                        }
+                    ]
+                },
+                {
+                    "subGroupName": "IOS Settings",
+                    "values": [
+                        {
+                            "name": "view_apple_develop_settings",
+                            "label": "Show Apple Develop Settings"
+                        }
+                    ]
+                },
+                {
+                    "subGroupName": "Registered Machines",
+                    "values": [
+                        {
+                            "name": "view_registration",
+                            "label": "Show Registration"
+                        },
+                        {
+                            "name": "unregister_machine",
+                            "label": "Unregister Machine"
+                        }
+                    ]
+                },
+                {
+                    "subGroupName": "Actions",
+                    "values": [
+                        {
+                            "name": "view_actions",
+                            "label": "Show Actions"
+                        },
+                        {
+                            "name": "add_actions",
+                            "label": "Add Actions"
+                        },
+                        {
+                            "name": "delete_actions",
+                            "label": "Delete Actions"
+                        },
+                        {
+                            "name": "sync_actions",
+                            "label": "Sync Actions"
+                        }
+                    ]
+                },
+                {
+                    "subGroupName": "Object Template",
+                    "values": [
+                        {
+                            "name": "view_object_template",
+                            "label": "Show Object Template"
+                        },
+                        {
+                            "name": "add_object_template",
+                            "label": "Add Object Template"
+                        },
+                        {
+                            "name": "delete_object_template",
+                            "label": "Delete Object Template"
+                        }
+                    ]
+                },
+                {
+                    "subGroupName": "Browser Settings",
+                    "values": [
+                        {
+                            "name": "view_browser_setting",
+                            "label": "Show Browser Setting"
+                        }
+                    ]
+                }
+            ]
+        },
+        "MARKETPLACE": {
+            "groupName": "MARKETPLACE",
+            "subGroups": [
+                {
+                    "subGroupName": "Project Management",
+                    "values": [
+                        {
+                            "name": "allow_project_integration",
+                            "label": "Allow Integration"
+                        },
+                        {
+                            "name": "delete_project_integration",
+                            "label": "Delete Integration"
+                        }
+                    ]
+                },
+                {
+                    "subGroupName": "Test Integrations",
+                    "values": [
+                        {
+                            "name": "allow_test_integration",
+                            "label": "Allow Integration"
+                        },
+                        {
+                            "name": "delete_test_integration",
+                            "label": "Delete Integration"
+                        }
+                    ]
+                },
+                {
+                    "subGroupName": "CI/CD Integrations",
+                    "values": [
+                        {
+                            "name": "allow_cicd_integration",
+                            "label": "Allow Integration"
+                        },
+                        {
+                            "name": "delete_cicd_integration",
+                            "label": "Delete Integration"
+                        }
+                    ]
+                },
+                {
+                    "subGroupName": "Mobile Integrations",
+                    "values": [
+                        {
+                            "name": "allow_mobile_integration",
+                            "label": "Allow Integration"
+                        },
+                        {
+                            "name": "delete_mobile_integration",
+                            "label": "Delete Integration"
+                        }
+                    ]
+                },
+                {
+                    "subGroupName": "Cloud Integrations",
+                    "values": [
+                        {
+                            "name": "allow_cloud_integration",
+                            "label": "Allow Integration"
+                        },
+                        {
+                            "name": "delete_cloud_integration",
+                            "label": "Delete Integration"
+                        }
+                    ]
+                },
+                {
+                    "subGroupName": "Pause & Delete Integration",
+                    "values": [
+                        {
+                            "name": "pause_delete_integration",
+                            "label": "Pause & Delete Integration"
+                        }
+                    ]
+                }
+            ]
+        },
+        "MISCELLANEOUS": {
+            "groupName": "MISCELLANEOUS",
+            "subGroups": [
+                {
+                    "subGroupName": "Miscellaneous",
+                    "values": [
+                        {
+                            "name": "upload_agent",
+                            "label": "Upload Agent"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
